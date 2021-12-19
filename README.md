@@ -1,6 +1,7 @@
 # Homework-week-3-password-generator-
 password generator
 
+https://infamous22222.github.io/Homework-week-3-password-generator-/
 
 purpose
 to generate secure password for client who needs protect private information

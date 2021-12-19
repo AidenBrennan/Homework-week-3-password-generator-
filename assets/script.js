@@ -13,20 +13,23 @@ function generatePassword() {
 
 
   if (window.confirm("do you wish to use lowercase letters (recommended)") == true) {
-      passwordCharacters.push ("q","w","e","r","t","y","u","i","o","p","a","s","d","f","g","h","j","k","l","z","x","c","v","b","n","m");  
+      passwordCharacters.push ("q","w","e","r","t","y","u","i","o","p","a","s","d","f","g","h","j","k","l","z","x","c","v","b","n","m")
+   } else { window.alert ("recommended to use all characters for maximum safety");
   }
   if (window.confirm("do you wish to use uppercase letters (recommended)") == true) {
-    passwordCharacters.push ("Q","W","E","R","S","Y","U","I","O","P","A","S","D","F","G","H","J","K","L","Z","X","C","V","B","N","M");
+    passwordCharacters.push ("Q","W","E","R","S","Y","U","I","O","P","A","S","D","F","G","H","J","K","L","Z","X","C","V","B","N","M")
+  } else { window.alert ("recommended to use all characters for maximum safety");
   }
 
-
-  if (window.confirm("do you wish to use numbers (recommended)") == true) {
-    passwordCharacters.push ("1","2","3","4","5","6","7","8","9","10");
+  if (window.confirm("do you wish to use numbers letters (recommended)") == true) {
+    passwordCharacters.push ("1","2","3","4","5","6","7","8","9","10")
+  } else { window.alert ("recommended to use all characters for maximum safety");
   }
 
- window.confirm("do you wish to use symbols (recommended)")
+ window.confirm("do you wish to use symbols letters (recommended)")
   if (window.confirm("do you wish to use symbols letters (recommended)") == true) {
-    passwordCharacters.push ("!","@","#","$","%","^","&","*","(",")");   
+    passwordCharacters.push ("!","@","#","$","%","^","&","*","(",")")
+  } else { window.alert ("recommended to use all characters for maximum safety");   
   }
 
   let passwordFinal = ("")

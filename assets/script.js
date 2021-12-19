@@ -20,11 +20,11 @@ function generatePassword() {
   }
 
 
-  if (window.confirm("do you wish to use numbers letters (recommended)") == true) {
+  if (window.confirm("do you wish to use numbers (recommended)") == true) {
     passwordCharacters.push ("1","2","3","4","5","6","7","8","9","10");
   }
 
- window.confirm("do you wish to use symbols letters (recommended)")
+ window.confirm("do you wish to use symbols (recommended)")
   if (window.confirm("do you wish to use symbols letters (recommended)") == true) {
     passwordCharacters.push ("!","@","#","$","%","^","&","*","(",")");   
   }

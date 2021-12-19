@@ -21,13 +21,12 @@ function generatePassword() {
   } else { window.alert ("recommended to use all characters for maximum safety");
   }
 
-  if (window.confirm("do you wish to use numbers letters (recommended)") == true) {
+  if (window.confirm("do you wish to use numbers (recommended)") == true) {
     passwordCharacters.push ("1","2","3","4","5","6","7","8","9","10")
   } else { window.alert ("recommended to use all characters for maximum safety");
   }
 
- window.confirm("do you wish to use symbols letters (recommended)")
-  if (window.confirm("do you wish to use symbols letters (recommended)") == true) {
+  if (window.confirm("do you wish to use symbols (recommended)") == true) {
     passwordCharacters.push ("!","@","#","$","%","^","&","*","(",")")
   } else { window.alert ("recommended to use all characters for maximum safety");   
   }
